@@ -1,25 +1,30 @@
 ## 语言：java
 
 ## 效果图
-https://github.com/TrillGates/TicketUnion/blob/master/pic/preview.png
+![image](https://github.com/wykfff/Taobao-android/assets/82668684/58cd13ce-a226-4f2c-87e4-49f09d85fce6)
+
 
 
 ## 功能
 
 #### 浏览有优惠券的商品
-https://github.com/TrillGates/TicketUnion/blob/master/pic/pic1.jpg
+![image](https://github.com/wykfff/Taobao-android/assets/82668684/3d4798a1-d328-45f9-bbd8-a7444d2690e3)
+
 
 #### 领取优惠券
-https://github.com/TrillGates/TicketUnion/blob/master/pic/pic2.jpg
+![image](https://github.com/wykfff/Taobao-android/assets/82668684/df83cfb5-43db-4dd0-9de1-04aad5d9520e)
+
 
 #### 搜索优惠券
-https://github.com/TrillGates/TicketUnion/blob/master/pic/pic3.jpg
+![image](https://github.com/wykfff/Taobao-android/assets/82668684/5b06f0c1-6e02-4005-8b1b-c2b145ff937e)
+
 
 #### 特惠宝贝
-https://github.com/TrillGates/TicketUnion/blob/master/pic/pic4.jpg
+![image](https://github.com/wykfff/Taobao-android/assets/82668684/fab9a93d-cb60-487a-9145-dfa179548ede)
 
 #### 扫码领券
-https://github.com/TrillGates/TicketUnion/blob/master/pic/pic5.jpg
+![Uploading image.png…]()
+
 
 
 ## 使用到的框架
