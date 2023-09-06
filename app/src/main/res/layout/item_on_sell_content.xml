@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:sob="http://schemas.android.com/apk/res-auto"
+    sob:contentPadding="5dp"
+    sob:cardBackgroundColor="@color/white"
+    android:orientation="vertical"
+    sob:cardElevation= "4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/on_sell_cover"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/on_sell_content_title_tv"
+            android:layout_marginTop="6dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="耐时充电宝超薄小巧便携快充闪充适用于vivo华为oppo苹果充电宝"/>
+
+        <LinearLayout
+            android:layout_marginTop="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/on_sell_origin_price_tv"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:text="￥58.9"
+                android:textColor="#D0021B"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/on_sell_off_price_tv"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#D0021B"
+                android:text="卷后价：28.8"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

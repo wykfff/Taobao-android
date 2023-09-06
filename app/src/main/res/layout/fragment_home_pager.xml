@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:sob="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_pager_parent"
+    android:gravity="center"
+    android:background="@color/colorPageBg"
+    android:orientation="vertical">
+
+  <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+      android:id="@+id/home_pager_refresh"
+      android:layout_width="match_parent"
+      sob:tr_enable_overscroll="false"
+      android:layout_height="match_parent">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/home_pager_nested_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <LinearLayout
+          android:descendantFocusability="blocksDescendants"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:gravity="center">
+
+          <LinearLayout
+              android:id="@+id/home_pager_header_container"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="14dp"
+            android:layout_height="200dp">
+
+          <com.example.taobao.ui.custom.AutoLoopViewPager
+              android:id="@+id/looper_pager"
+              sob:duration="4000"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:overScrollMode="never"
+              />
+          <LinearLayout
+              android:id="@+id/looper_point_container"
+              android:layout_alignParentBottom="true"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+              android:gravity="center"
+              android:orientation="horizontal"/>
+        </RelativeLayout>
+
+        <!--  标题-->
+        <include layout="@layout/include_home_pager_title"
+            android:layout_marginBottom="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+          </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_pager_content_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+      </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+  </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+
+
+
+
+
+</LinearLayout>
