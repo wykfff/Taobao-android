@@ -1,24 +1,25 @@
 ## 语言：java
 
 ## 效果图
-![image](https://github.com/wykfff/LingJuanLianMeng-android/assets/82668684/a5cd6048-8cc1-40a2-9f12-7650e5cf2e7c)
+https://github.com/TrillGates/TicketUnion/blob/master/pic/preview.png
+
 
 ## 功能
 
 #### 浏览有优惠券的商品
-![image](https://github.com/wykfff/LingJuanLianMeng-android/assets/82668684/7605f9ba-2864-496b-a3c2-a458945a6ffc)
+https://github.com/TrillGates/TicketUnion/blob/master/pic/pic1.jpg
 
 #### 领取优惠券
-![image](https://github.com/wykfff/LingJuanLianMeng-android/assets/82668684/16df0b91-8c42-4d49-b246-26795a8fbe75)
+https://github.com/TrillGates/TicketUnion/blob/master/pic/pic2.jpg
 
 #### 搜索优惠券
-![image](https://github.com/wykfff/LingJuanLianMeng-android/assets/82668684/b64b9f1e-2d83-4bb3-ad91-e42fb8641a28)
+https://github.com/TrillGates/TicketUnion/blob/master/pic/pic3.jpg
 
 #### 特惠宝贝
-![image](https://github.com/wykfff/LingJuanLianMeng-android/assets/82668684/10ad5511-e943-47e6-963a-82fbf69ab1db)
+https://github.com/TrillGates/TicketUnion/blob/master/pic/pic4.jpg
 
 #### 扫码领券
-![image](https://github.com/wykfff/LingJuanLianMeng-android/assets/82668684/a634ddeb-f9e1-49ea-890a-5e1ad5d48c4f)
+https://github.com/TrillGates/TicketUnion/blob/master/pic/pic5.jpg
 
 
 ## 使用到的框架
